@@ -1,0 +1,44 @@
+/* navbar */
+@media(max-width :500px){
+#navbar{
+  align-items: center;
+  flex-direction: column;
+}
+#nav-bar .logo{
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+#navbar ul{
+  margin-bottom: 0.5rem;
+  padding: 0.5rem ;
+}
+}
+#what .items{
+  display: block;
+}
+/* align items to left */
+#what .items .item{
+  display: flex;
+  text-align: left;
+  padding: 0;
+}
+/* positio icon */
+#what .items .item i {
+  margin-right: 1.5rem; 
+  align-self:center;
+  margin-bottom: 0;
+  
+}
+#who .who-img{
+  display: none;
+}
+#clients .items img{
+  width: 80%;
+}
+#clients .items div:last-child{
+  display: none;
+}
+
+#contact .map{
+ display: none;
+}
